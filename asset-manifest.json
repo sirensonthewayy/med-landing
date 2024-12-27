@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/med_landing/static/css/main.60e6f695.css",
+    "main.js": "/med_landing/static/js/main.3c5802f5.js",
+    "index.html": "/med_landing/index.html",
+    "main.60e6f695.css.map": "/med_landing/static/css/main.60e6f695.css.map",
+    "main.3c5802f5.js.map": "/med_landing/static/js/main.3c5802f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60e6f695.css",
+    "static/js/main.3c5802f5.js"
+  ]
+}
