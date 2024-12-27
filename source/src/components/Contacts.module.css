@@ -1,0 +1,42 @@
+.contacts{
+    padding: 0px 90px;
+    height: 420px;
+    margin-bottom: 40px;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    a{
+        font-weight: 500;
+        font-size: 24px;
+    }
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 20px 0px;
+}
+
+.socials{
+    display: flex;
+    height: 72px;
+    gap: 10px;
+    margin-top: 8px;
+    img{
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media(max-width: 992px){
+    .contacts{
+        height: auto;
+    }
+    .content a{
+        font-size: 21px;
+    }
+  }
