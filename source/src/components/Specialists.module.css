@@ -1,0 +1,47 @@
+.advantages{
+    background-color:  rgba(0, 238, 255, .15);
+    padding: 0px 90px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.content{
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    width: 100%; 
+    p{
+        font-size: 22px;
+        opacity: 50%;
+        font-weight: 500;
+        margin: 10px;
+    }
+    h3{
+        margin: 0px;    
+    }
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    gap: 15px;
+}
+
+@media(max-width:768px){
+    .content p{
+        margin: 0px;
+        font-size: 18px;
+    }
+    .content h3{
+        font-size: 22px;
+    }
+}
